@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #7b1fa2;
+}
+
+mat-card {
+    max-width: 450px;
+    width: 100%;
+    padding : 20px;
+    background-color: #7b1fa2;
+
+
+    @media screen and (max-width : 500px) {
+        max-width: 90%;
+    }
+}
+
+mat-card-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:#070009;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+mat-form-field {
+    width : 100%;
+    margin-bottom: 20px;
+    
+}
+
+#mat-input-0.mat-mdc-input-element.mdc-text-field {
+    color: #070009; 
+}
+
+#mat-input-0.mat-mdc-input-element.mdc-text-field {
+    color: #070009; 
+}
+
+
+
+button {
+    width : 100px;
+    background-color: #7b1fa2;
+    margin-right: 2%;
+    border : hidden;
+    padding: 2px 20px;
+}
+
+#mat-button{
+    width : 400px;
+    background-color: #7b1fa2;
+    margin-right: 2%;
+    border : hidden;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px) {
+    mat-card-title {
+        font-size: 20px;
+    }
+
+    mat-form-field {
+        margin-bottom: 10px;
+    }
+}
+
+.error-snackbar {
+    background-color: #f44336 !important;
+}
+
+.btn {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width : 150px;
+    cursor: pointer; 
+}
+
+
+

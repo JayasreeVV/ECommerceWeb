@@ -1,0 +1,29 @@
+.custom-toolbar {
+    background-color: #ff0000;
+}
+
+button.active{
+    font-weight: 600;
+}
+
+button {
+    color: white;
+    text-transform: uppercase;
+    margin-left: 8px;
+}
+
+.spacer{
+    flex: 1;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.navbar-brand{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 16px;
+}
